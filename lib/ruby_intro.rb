@@ -4,9 +4,6 @@
 
 def sum(array)
   array.empty? ? 0 : array.last + sum(array[0, array.size - 1])
-  # array[0] = array.pop + array[0];
-  # sum(array) until array.length == 1
-  # array.first
 end
 
 
